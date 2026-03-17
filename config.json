@@ -58,6 +58,34 @@
           "type": "csv"
         }
       ]
+    },
+    {
+      "id": "file-handling-modules",
+      "title": "File Handling and Modules",
+      "description": "Read and process logs from files, summarize data, and structure code with modules.",
+      "path": "assignments/file-handling-modules",
+      "dueDate": "2026-03-24",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
+    },
+    {
+      "id": "fastapi-rest-api",
+      "title": "Building REST APIs with FastAPI",
+      "description": "Build a RESTful API with FastAPI, including endpoints, validation, and error handling.",
+      "path": "assignments/fastapi-rest-api",
+      "dueDate": "2026-03-24",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
