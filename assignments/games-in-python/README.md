@@ -1,19 +1,45 @@
+# 📘 Assignment: Hangman Game Challenge
 
-# 🎮 Hangman Game Challenge
+## 🎯 Objective
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+Create a complete Hangman game in Python to practice string manipulation, loops, conditionals, and game state tracking.
 
-## � What You'll Build
+## 📝 Tasks
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+### 🛠️ Game Setup and Word Selection
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+#### Description
+Set up the game with a list of secret words and select one at random for the player to guess.
 
-## ✅ Must Have's
+#### Requirements
+Completed program should:
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+- Define a list of at least 10 possible words.
+- Randomly choose a word at the start of each game using `random.choice()`.
+- Initialize the hidden word display as underscores for each letter.
+
+### 🛠️ Player Input and Guess Processing
+
+#### Description
+Allow the player to guess letters and update the game state based on correct or incorrect guesses.
+
+#### Requirements
+Completed program should:
+
+- Prompt the player to input a single letter guess.
+- Reveal correct letters in the hidden word display.
+- Track and show guessed letters and remaining attempts.
+- Ignore repeated guesses and prompt again without losing attempts.
+
+### 🛠️ Win/Lose Conditions and Replay Option
+
+#### Description
+Determine when the game is won or lost and offer the player a chance to play again.
+
+#### Requirements
+Completed program should:
+
+- End the game with a win message when the word is fully guessed.
+- End the game with a lose message when attempts run out, revealing the secret word.
+- Ask the player if they want to play again and restart or exit based on their response.
+
